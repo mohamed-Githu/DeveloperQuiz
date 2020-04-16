@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background: linear-gradient(to right, rgba(0, 110, 255, 0.671), #352f5b);
+    background:  #150b5c;
 }
 
 .header__board {
@@ -29,7 +29,7 @@ body {
     font-weight: 400;
     letter-spacing: 1.7;
     margin-bottom: 8rem;
-    color: rgba(0, 0, 0, 0.733);
+    color: rgba(0, 0, 0, 0.815);
 }
 
 p {
@@ -59,18 +59,18 @@ section {
     font-size: 3.4rem;
     margin: 3rem .2rem;
     display: inline-block;
-    color: rgba(0, 255, 255, 0.479);
+    color: darkcyan
 }
 
 .quistion {
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: rgba(0, 0, 0, 0.658);
     margin: 4rem;
     padding: 5rem;
     border-radius: 50px;
 }
 
 label {
-    color: rgba(0, 0, 0, 0.521);
+    color: rgba(255, 255, 255, 0.705);
     margin-left: 1.5rem;
 }
 
@@ -88,7 +88,7 @@ label {
 }
 
 .btn:hover {
-    background-color: rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.527);
 }
 
 .submit {

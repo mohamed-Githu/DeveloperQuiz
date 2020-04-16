@@ -3,6 +3,14 @@ const quiz = document.querySelector('.quiz');
 const quistions = document.querySelectorAll('.quistion');
 const board = document.querySelector('.header__board');
 const redo = document.querySelector('.redo');
+const labels = document.querySelectorAll('label');
+console.log(labels);
+
+labels.forEach( label => {
+    label.addEventListener('click', e => {
+        console.log(e);
+    });  
+});
 
 redo.addEventListener('click', () => {
     location.reload(true);
@@ -39,3 +47,4 @@ quiz.addEventListener('submit', e => {
         result.textContent = `${temp}%`;
     }, 20);
 });
+
